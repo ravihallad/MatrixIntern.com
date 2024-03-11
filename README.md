@@ -1,7 +1,6 @@
-# KRON-Dev (IT company)
-Fully adaptive, cross-browser, and user-friendly multi-page website for an esteemed international IT company. Made using modern solutions and technologies, the website delivers a seamless browsing experience, ensuring compatibility across different devices and browsers
+# Matrix-Dev (IT company)
 
-You can <a href="https://demgam.github.io/HEALTHY_SWITCHER/" target="_blank">see it there</a>
+
 
 <h2>
   🔧 Used Technologies & Tools
@@ -16,5 +15,5 @@ You can <a href="https://demgam.github.io/HEALTHY_SWITCHER/" target="_blank">see
   <a href="https://www.npmjs.com" target="_blank"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"></a>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/DemGam/Front-End-Portfolio/main/img/works/kron-dev.png" alt="KRON-Dev cover"/>
+<img src="https://raw.githubusercontent.com/DemGam/Front-End-Portfolio/main/img/works/logo.png" />
 </p>
