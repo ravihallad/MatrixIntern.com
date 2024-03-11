@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Virtual Intership Program </title>
+	
+</head>
+<body>
+	<style>
+body{
+	background-color: #ede7f6;
+	font-family: Roboto,Sans-serif;
+	background-image:url("Background.jpeg ");
+}
+.form{
+	height: 1100px;
+	width: 600px;
+	margin: auto;
+}
+.required{
+font-size: 13px;
+color: red;
+}
+.title-div{
+	height: 150px;
+	width: 600px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 8px solid #6703c4;
+	padding: 25px;
+}
+.name-div, .college-div, .gmail-div, .mobile-div,.contact-div{
+	height: 150px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+
+
+.domain-div {
+  
+  
+   left: 17;
+   background-color: #FDFEFE;
+   height: 210px;
+   width: 650px;
+   margin: 15px;
+   border-radius: 8px;
+}
+.domain-div2 {
+  
+  
+   left: 17;
+   background-color: #FDFEFE;
+   height: 210px;
+   width: 650px;
+   margin: 15px;
+   border-radius: 8px;
+}
+
+
+
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.input1-div{
+	padding-top: 15px;
+	padding-left: 25px;
+
+}
+.input2-div{
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color: #6703c4;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.checkmark {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #aaa;
+	border-radius: 50%;
+  }
+  
+  /* Color when radio button is checked */
+  input[type="radio"]:checked + .checkmark {
+	background-color: #ffcccb; /* Change to desired color */
+  }
+  
+  /* Label style */
+  label {
+	cursor: pointer;
+	padding-left: 30px;
+	display: inline-block;
+  }
+  
+  /* Hover effect */
+  .input1-div:hover .checkmark,
+  .input2-div:hover .checkmark {
+	border-color: #666;
+  }
+  
+  /* Additional styling for the "Domain Of Internship" section */
+  .domain-div {
+	margin-bottom: 20px;
+  }
+  
+  /* Additional styling for the "Year" section */
+  .domain-div2 {
+	margin-bottom: 20px;
+  }
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.term{
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+.never{
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+
+}
+.popup{
+	width: 400px;
+	background: #dedddd;
+	border-radius: 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%)scale(0.1);
+	text-align: center;
+	padding: 0,30px,30px;
+	color: #333;
+    visibility:hidden ;
+	transition: transform 0.4s,top 0.4s;
+
+}
+.open-popup{
+	visibility: visible;
+	top: 100%;
+	transform: translate(-50%,-50%)scale(1);
+
+}
+.popup img{
+	width: 100px;
+	margin-top: -50px;
+	border-radius: 50px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 2);
+}
+.popup h2{
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px ;
+
+}
+.popup button{
+	width: 90%;
+	margin-top: 50px;
+	padding: 10px 0;
+	background: #6fd649;
+	color: #fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 2);
+
+}
+
+</style>
+	<div class="form">
+		<div class="title-div">
+			<h1>Student Details</h1>
+			<p>Note: Please don't apply many times for the same domain, or your application will be consider as invalid..</p>
+			<p class="required">*Required</p>
+		</div>
+         
+         <div class="gmail-div">
+			<div class="name">Email<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your email"></div>
+		</div>
+
+		<div class="name-div">
+			<div class="name"> Name<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+		</div>
+         
+         <div class="contact-div">
+			<div class="name">What'sApp Contact No.<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div class="college-div">
+			<div class="name">College name</div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+		</div>
+
+
+		<div class="mobile-div">
+			<div class="name">College-Branch.</div>
+			<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div class="domain-div">
+    <div class="name">Domain Of Internship.</div>
+    <div class="input1-div ">
+        <label>
+            <input type="radio" name="answer" value="web Dvelopment"> 
+			<span class="checkmark"></span>
+			web Dvelopment
+        </label>
+    </div>
+    <div class="input1-div">
+        <label>
+            <input type="radio" name="answer" value="Full stack Development"> <span class="checkmark"></span>
+			Full stack Development
+        </label>
+    </div>
+    <div class="input1-div">
+        <label>
+            <input type="radio" name="answer" value="Data Science"><span class="checkmark"></span>
+			 Data Science
+        </label>
+    </div>
+    <div class="input1-div">
+        <label>
+            <input type="radio" name="answer" value="Machine Learning"><span class="checkmark"></span>
+			 Machine Learning 
+        </label>
+    </div>
+    <div class="input1-div">
+        <label>
+            <input type="radio" name="answer" value="UI/UX"><span class="checkmark"></span>
+			 UI/UX 
+        </label>
+    </div>
+</div>
+
+<div class="name-div">
+	<div class="name"> Year of Studying<span class="required">*</span></div>
+	<div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+</div>
+
+         
+
+
+
+
+
+		<div>
+			<input class="btn" type="submit" name="Submit" onclick="openPopup()">
+		</div>
+         <div class ="popup" id="popup">
+			<img src="tick.png">
+		<h2> Thank You  </h2> 
+	     <p> Your Details Has Been Successfull Submitted . Thanks....! </p>      
+		 <button type ="button " onclick="closePopup()">OK </button>              
+	</div>
+		<div class="last-div">
+			<p class="never">Never submit passwords through Google Forms.</p>
+			<p class="term">This content is neither created nor endorsed by Google, Report Abuse - Term of Service - Private Policy</p>
+			<h2>MATRIX INTERNS</h2>
+		</div>
+		
+
+
+
+
+
+	</div>
+<script>
+	let popup = document.getElementById("popup");
+	function openPopup(){
+popup.classList.add("open-popup");
+	}
+	function closePopup(){
+		popup.classList.remove("open-popup");
+			}
+</script>
+</body>
+</html>
